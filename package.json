@@ -12,6 +12,7 @@
     "bootstrap": "corepack enable && pnpm install",
     "lint": "pnpm exec eslint --ext .ts,.tsx .",
     "lint:fix": "pnpm run lint --fix",
+    "lint:ci": "pnpm run lint --quiet",
     "hook:pre-commit": "lint-staged",
     "hook:commit-msg": "commitlint --edit $1",
     "dev": "pnpm -F meta-website dev",
