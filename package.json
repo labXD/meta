@@ -1,17 +1,18 @@
 {
-  "name": "formxd",
-  "description": "Monorepo for formXD",
+  "name": "labxd",
+  "description": "Monorepo for labXD meta",
   "contributors": [
     "jimmynXD",
     "wallexd"
   ],
-  "packageManager": "pnpm@7.2.1",
+  "packageManager": "pnpm@7.8.0",
   "license": "MIT",
   "private": true,
   "scripts": {
     "bootstrap": "corepack enable && pnpm install",
     "lint": "pnpm exec eslint --ext .ts,.tsx .",
     "lint:fix": "pnpm run lint --fix",
+    "dev": "pnpm -F meta-website dev",
     "hy": "hygen"
   },
   "devDependencies": {
@@ -33,10 +34,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/labXD/formXD.git"
+    "url": "git+https://github.com/labXD/meta.git"
   },
   "bugs": {
-    "url": "https://github.com/labXD/formXD/issues"
+    "url": "https://github.com/labXD/meta/issues"
   },
-  "homepage": "https://github.com/labXD/formXD#readme"
+  "homepage": "https://github.com/labXD/meta#readme"
 }

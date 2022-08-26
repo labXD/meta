@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "name": "🚀 websites",
-      "path": "apps/nextjs"
+      "name": "🚀 website",
+      "path": "apps/website"
     },
     {
       "name": "🌱 root",
@@ -13,7 +13,8 @@
     "editor.formatOnSave": true,
     "css.validate": false,
     "scss.validate": false,
-    "stylelint.enable": true
+    "stylelint.enable": true,
+    "typescript.tsdk": "🌱 root/node_modules/typescript/lib"
   },
   "extensions": {
     "recommendations": [
