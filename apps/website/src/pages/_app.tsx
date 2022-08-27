@@ -1,9 +1,8 @@
-import "../styles/globals.css";
+import "../styles/globals.css"
 
-import type { AppProps } from "next/app";
-import Head from "next/head";
-
-import { BaseLayout } from "@/meta/web/components/BaseLayout";
+import { BaseLayout } from "@labxd/gustxd"
+import type { AppProps } from "next/app"
+import Head from "next/head"
 
 function App({ Component, pageProps }: AppProps) {
   return (
@@ -15,7 +14,7 @@ function App({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </BaseLayout>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
