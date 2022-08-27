@@ -50,7 +50,7 @@ importers:
     specifiers:
       '@headlessui/react': ^1.6.6
       '@heroicons/react': 2.0.8
-      '@labxd/gustxd': '*'
+      '@labxd/gustxd': ^0.4.0
       '@types/node': 18.7.13
       '@types/react': 18.0.17
       '@types/react-dom': 18.0.6
@@ -67,7 +67,7 @@ importers:
     dependencies:
       '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
       '@heroicons/react': 2.0.8_react@18.2.0
-      '@labxd/gustxd': 0.2.0_w3m2bgyauuxzzrhykri777oivq
+      '@labxd/gustxd': 0.4.0_w3m2bgyauuxzzrhykri777oivq
       autoprefixer: 10.4.8_postcss@8.4.16
       clsx: 1.2.1
       next: 12.2.5_biqbaboplfbrettd7655fr4n2y
@@ -553,8 +553,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@labxd/gustxd/0.2.0_w3m2bgyauuxzzrhykri777oivq:
-    resolution: {integrity: sha512-nYZEMkjcnNI/ltDHj48RdizbION3sTxOTZC/iVZebCfBHUNiPbpzqlqIbNJLNZ2e1Z7BpnGlaM3y8j/pvlEwPQ==}
+  /@labxd/gustxd/0.4.0_w3m2bgyauuxzzrhykri777oivq:
+    resolution: {integrity: sha512-OeYGtffNZCGvHvkwsiMXBdSeUPv+OCuZXEvi+CPXdIggaFDxbdJ89HO7tCZh8vIF6WL49ZtjLgXiMONmEYB2Nw==}
     engines: {node: '>=14'}
     peerDependencies:
       react: '>=17'
