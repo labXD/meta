@@ -16,8 +16,7 @@
     "hook:pre-commit": "lint-staged",
     "hook:commit-msg": "commitlint --edit $1",
     "dev": "pnpm -F meta-website dev",
-    "hy": "hygen",
-    "prepare": "husky install"
+    "hy": "hygen"
   },
   "devDependencies": {
     "@changesets/cli": "^2.24.3",
