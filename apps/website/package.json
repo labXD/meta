@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "debug": "NODE_OPTIONS='--inspect' pnpm run dev",
+    "deploy": "sh ./scripts/deploy.sh"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
