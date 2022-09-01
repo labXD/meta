@@ -43,10 +43,11 @@ brew install docker --cask
 gcloud auth configure-docker
 ```
 
-## Deployment
+## Deploy
 
 Ensure proper google cloud project is set.
 
 ```bash
+cd apps/website
 sh srcipts/deploy.sh
 ```
