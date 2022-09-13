@@ -1,0 +1,41 @@
+{
+  "name": "eslint-config-labxd",
+  "version": "0.1.0",
+  "description": "Linting packages used by labXD",
+  "author": "labXD Core",
+  "contributors": [
+    "Jimmy Nguyen <jimmy@labxd.com> (https://github.com/jimmynxd)",
+    "Walee Ahmed <walee@labxd.com> (https://github.com/wallexd)"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "eslint-plugin-import": "^2.26.0",
+    "@rushstack/eslint-patch": "^1.1.4",
+    "eslint-plugin-react": "7.31.8",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "@typescript-eslint/parser": "^5.37.0",
+    "@typescript-eslint/eslint-plugin": "^5.37.0",
+    "eslint-import-resolver-typescript": "^3.5.1"
+  },
+  "peerDependencies": {
+    "eslint": ">8.0.0",
+    "typescript": ">4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/labXD/meta/",
+    "directory": "packages/eslint-config-labxd"
+  },
+  "keywords": [
+    "eslint",
+    "labxd"
+  ]
+}

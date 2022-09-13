@@ -5,6 +5,10 @@
       "path": "apps/website"
     },
     {
+      "name": "📝 eslint-config-labxd",
+      "path": "packages/eslint-config-labxd"
+    },
+    {
       "name": "🌱 root",
       "path": "."
     }
