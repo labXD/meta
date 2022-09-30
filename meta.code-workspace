@@ -5,8 +5,8 @@
       "path": "apps/website"
     },
     {
-      "name": "📝 eslint-config-labxd",
-      "path": "packages/eslint-config-labxd"
+      "name": "🧬 packages",
+      "path": "packages"
     },
     {
       "name": "🌱 root",
@@ -17,8 +17,7 @@
     "editor.formatOnSave": true,
     "css.validate": false,
     "scss.validate": false,
-    "stylelint.enable": true,
-    "typescript.tsdk": "🌱 root/node_modules/typescript/lib"
+    "stylelint.enable": true
   },
   "extensions": {
     "recommendations": [
