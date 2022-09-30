@@ -56,7 +56,7 @@ jobs:
         run: pnpm run lint:ci
 
       - name: Typecheck
-        run: pnpm exec tsc --noEmit
+        run: pnpm -r typecheck
         working-directory: apps/website
 
   lint-pr-title:
