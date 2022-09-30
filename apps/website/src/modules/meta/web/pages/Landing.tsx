@@ -1,52 +1,25 @@
 import clsx from "clsx"
 import type { NextPage } from "next"
-import Head from "next/head"
 import Typewriter from "typewriter-effect"
 
-import { TopNav } from "@/meta/web/components"
+import { Footer, PageLayout, PageMetaTitle } from "../components"
 
-const Landing: NextPage = () => {
+export const LandingPage: NextPage = () => {
   return (
     <>
-      <Head>
-        <title>labXD - Laboratory for Experience Development</title>
-      </Head>
-      <TopNav />
-      <main
-        className={clsx(
-          "before:content before:bg-black before:bg-gradient-radial before:from-[#1e1c4d] before:fixed before:inset-0 before:-z-10",
-          "flex items-center justify-center flex-col flex-1"
-        )}
+      <PageMetaTitle primary>labXD - Developing experiences</PageMetaTitle>
+      <PageLayout
+        cls="before:content-[''] before:bg-black before:bg-gradient-radial before:from-[#1e1c4d] before:fixed before:inset-0 before:-z-10"
+        innerCls="fixed inset-0 flex flex-col justify-center items-center"
+        footer={<Footer />}
       >
-        <div className="">
+        <main className={clsx("flex flex-col items-center")}>
           <div className="text-white font-display relative flex flex-col items-center">
             <h1 className="text-transparent font-bold text-8xl bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-600">
               labXD
             </h1>
-
-            <div className="text-2xl tracking-wider flex  items-center  pt-12 text-indigo-50 font-semibold">
-              <span className="relative">
-                Side
-                <div className="absolute top-0 left-0 right-0 flex justify-center text-base -translate-y-full">
-                  <span className="text-white bg-teal-600  py-1 px-2 leading-4 rounded-xl">
-                    client
-                  </span>
-                </div>
-              </span>
-              <span className="whitespace-nowrap font-normal px-2">-to-</span>
-              <span className="relative">
-                Side
-                <div className="absolute top-0 left-0 right-0 flex justify-center text-base -translate-y-full">
-                  <span className="text-white bg-orange-600 py-1 px-2 leading-4 rounded-xl">
-                    server
-                  </span>
-                </div>
-              </span>
-            </div>
-
             <div
               className={clsx(
-                "absolute -bottom-4 translate-y-full w-screen px-4",
                 "text-center text-2xl text-transparent bg-clip-text bg-gradient-to-r from-indigo-200 to-pink-200"
               )}
             >
@@ -63,9 +36,29 @@ const Landing: NextPage = () => {
               />
             </div>
           </div>
-        </div>
-      </main>
+          <div className="space-y-1 pt-12 px-4 text-center text-white text-base font-normal">
+            <div className="text-2xl tracking-wider flex items-center justify-center text-indigo-50 font-semibold">
+              <span className="relative">
+                Creation
+                <div className="absolute top-0 left-0 right-0 flex justify-center text-base -translate-y-full">
+                  <span className="text-white bg-teal-600  py-1 px-2 leading-4 rounded-xl">
+                    30 days
+                  </span>
+                </div>
+              </span>
+              <span className="whitespace-nowrap font-normal px-2">-and-</span>
+              <span className="relative">
+                Growth
+                <div className="absolute top-0 left-0 right-0 flex justify-center text-base -translate-y-full">
+                  <span className="text-white bg-orange-600 py-1 px-2 leading-4 rounded-xl">
+                    30 days
+                  </span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </main>
+      </PageLayout>
     </>
   )
 }
-export default Landing

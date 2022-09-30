@@ -30,7 +30,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/modules/*"],
-      "~/*": ["./src/*"]
+      "~/*": ["./src/*"],
+      "@/public/*": ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

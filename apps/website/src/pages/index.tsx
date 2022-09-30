@@ -1,1 +1,1 @@
-export { default } from "@/meta/web/pages/Landing"
+export { LandingPage as default } from "@/meta/web"
