@@ -7,7 +7,7 @@ export const TopNav: FC = () => {
     {
       product: "gustXD",
       name: "Design System",
-      href: "https://www.gustxd.com",
+      href: "https://gustxd.com",
     },
     {
       product: "surveyXD",
