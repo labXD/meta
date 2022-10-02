@@ -9,13 +9,13 @@
 
 ### Google Cloud CLI
 
-#### macOS
+> macOS
 
 ```bash
 brew install google-cloud-sdk --cask
 ```
 
-#### Config
+> Config
 
 ```bash
 # log into google cloud
@@ -30,13 +30,13 @@ gcloud config set project <project-id>
 
 ### Docker
 
-#### macOS
+> macOS
 
 ```bash
 brew install docker --cask
 ```
 
-#### Config
+> Config
 
 ```bash
 # sets up docker auth for gcloud
@@ -51,3 +51,19 @@ Ensure proper google cloud project is set.
 cd apps/website
 pnpm run deploy
 ```
+
+## Abstract from Jimmy
+
+If this is the first time, you need to setup your gcloud
+
+- setup gcloud
+  - install from homebrew
+  - login to gcloud
+- point to the right project
+  - `gcloud config set project labxd-neo`
+- setup docker for gcloud
+  - `gcloud auth configure-docker`
+
+Run script in website directory
+
+`pnpm run deploy`

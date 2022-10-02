@@ -7,17 +7,17 @@ export const TopNav: FC = () => {
     {
       product: "gustXD",
       name: "Design System",
-      href: "https://www.gustxd.com",
+      href: "https://gustxd.com",
     },
     {
       product: "surveyXD",
       name: "Survey Builder",
-      href: "https://www.surveyxd.com",
+      href: "https://surveyxd.com",
     },
   ]
 
   return (
-    <nav className="p-4 fixed top-0 left-0 right-0">
+    <nav className="order-2 md:order-[unset] p-4 md:fixed top-0 left-0 right-0">
       <div className={clsx("flex flex-col text-center space-y-4")}>
         <span
           className={clsx(
