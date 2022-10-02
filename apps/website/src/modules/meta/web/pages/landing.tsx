@@ -5,6 +5,49 @@ import Typewriter from "typewriter-effect"
 import { Footer, PageLayout, PageMetaTitle } from "../components"
 
 export const LandingPage: NextPage = () => {
+  const card = (
+    <section className="pt-8 px-4 page-max-xl text-sm md:text-base">
+      <div className="xd-card xd-card-border-t md:xd-card-border-l text-xd-primary-black">
+        <h3 className="font-medium underline underline-offset-2">
+          What we are about
+        </h3>
+        <p className="pt-2">
+          labXD&apos;s mission is based on self-growth motivation:
+        </p>
+        <ul className="py-1 ml-4 pl-4 list-disc font-medium">
+          <li>Always be learning, </li>
+          <li>
+            Create and grow projects that we are happy to get up at 5am to work
+            onXD
+          </li>
+        </ul>
+        <h3 className="pt-4 font-medium underline underline-offset-2">
+          Thirty Rapid POC model
+        </h3>
+        <p className="pt-2">
+          Tech idea? Design project? No matter the type, each project goes
+          through our <b>Thirty</b> rapid proof of concept model,{" "}
+          <b className="text-red-500">
+            a process we are currently developing in which we spend 30 days
+            creating the product and 30 days growing it.
+          </b>{" "}
+          After the 60 days, we want to be able to make a decision on whether:
+        </p>
+        <ul className="py-1 ml-4 pl-4 list-disc font-medium">
+          <li>the project has validity for further iterations,</li>
+          <li>
+            is something we can build a team around (we do the POC and the team
+            we build runs the project after the 60 days),
+          </li>
+          <li>it has curbed our anxiety to push forwardXD</li>
+        </ul>
+        <p className="pt-4">
+          Join our journey (Haus of XD) as we navigate through the tech and
+          design landscape. Find us on various social platforms.
+        </p>
+      </div>
+    </section>
+  )
   return (
     <>
       <PageMetaTitle primary>labXD - Developing experiences</PageMetaTitle>
@@ -14,7 +57,7 @@ export const LandingPage: NextPage = () => {
         footer={<Footer />}
       >
         <main className={clsx("pt-8 md:pt-[unset] flex flex-col items-center")}>
-          <div className="text-white font-display relative flex flex-col items-center">
+          <section className="text-white font-display relative flex flex-col items-center">
             <h1 className="text-transparent font-bold text-8xl bg-clip-text bg-gradient-to-r from-indigo-300 to-pink-600">
               labXD
             </h1>
@@ -35,8 +78,8 @@ export const LandingPage: NextPage = () => {
                 }}
               />
             </div>
-          </div>
-          <div className="space-y-1 pt-12 px-4 text-center text-white text-base font-normal">
+          </section>
+          <section className="space-y-1 pt-12 px-4 text-center text-white text-base font-normal">
             <div className="text-2xl tracking-wider flex items-center justify-center text-indigo-50 font-semibold">
               <span className="relative">
                 Creation
@@ -56,46 +99,8 @@ export const LandingPage: NextPage = () => {
                 </div>
               </span>
             </div>
-          </div>
-          <div className="pt-8 px-4 page-max-xl text-sm md:text-base">
-            <div className="xd-card xd-card-border-t md:xd-card-border-l text-xd-primary-black">
-              <h3 className="font-medium underline underline-offset-2">
-                What we are about
-              </h3>
-              <p className="pt-2">
-                labXD&apos;s mission is based on self-growth motivation:
-                <ul className="py-1 ml-4 pl-4 list-disc font-medium">
-                  <li>Always be learning, </li>
-                  <li>
-                    Create and grow projects that we are happy to get up at 5am
-                    to work onXD
-                  </li>
-                </ul>
-              </p>
-              <h3 className="pt-4 font-medium underline underline-offset-2">
-                30 and 30 Rapid POC model
-              </h3>
-              <p className="pt-2">
-                Tech idea? Design project? No matter the type, each project goes
-                through our 30 and 30 rapid proof of concept model, which
-                consist of spending 30 days creating the product and 30 days
-                growing it. After the 60 days, we want to be able to make a
-                decision on whether:
-              </p>
-              <ul className="py-1 ml-4 pl-4 list-disc font-medium">
-                <li>the project has validity for further iterations,</li>
-                <li>
-                  is something we can build a team around (we do the POC and the
-                  team we build runs the project after the 60 days),
-                </li>
-                <li>it has curbed our anxiety to push forwardXD</li>
-              </ul>
-              <div className="pt-4">
-                Join our journey (Haus of XD) as we navigate through the tech
-                and design landscape. Find us on various social platforms.
-              </div>
-            </div>
-          </div>
+          </section>
+          {card}
         </main>
       </PageLayout>
     </>
