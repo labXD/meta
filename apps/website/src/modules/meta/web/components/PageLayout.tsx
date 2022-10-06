@@ -23,10 +23,8 @@ export const PageLayout: FC<PageLayoutProps> = ({
 }) => {
   return (
     <BaseLayout className={cls}>
-      <div className={clsx(innerCls, "flex-1")}>
-        {(!disableTopNav && topNav) ?? <TopNav />}
-        {children}
-      </div>
+      {(!disableTopNav && topNav) ?? <TopNav />}
+      <div className={clsx(innerCls, "flex-1")}>{children}</div>
       {!disableFooter && footer}
     </BaseLayout>
   )
