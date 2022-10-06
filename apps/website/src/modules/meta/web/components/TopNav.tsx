@@ -29,7 +29,7 @@ export const TopNav: FC = () => {
         <ul className="text-white space-y-4">
           {projects.map((prod, index) => (
             <li key={index} className="relative">
-              <Link href={prod.href} target="_blank">
+              <Link passHref href={prod.href} target="_blank">
                 <a
                   target={"_blank"}
                   className={clsx(

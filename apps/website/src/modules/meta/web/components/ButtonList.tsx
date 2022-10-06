@@ -11,7 +11,7 @@ export const ButtonList: FC = () => {
       <div className="flex flex-col items-center justify-center flex-1">
         <ul className="text-white space-y-6 w-full md:max-w-[500px]">
           <li>
-            <Link href="https://discord.gg/2JzNrn4P6N" target="_blank">
+            <Link passHref href="https://discord.gg/2JzNrn4P6N" target="_blank">
               <LinkButton
                 target="_blank"
                 left={
@@ -29,9 +29,9 @@ export const ButtonList: FC = () => {
             <Link
               href="https://www.youtube.com/channel/UCWvxvCuwAcVeCSt5tsLBwwA"
               target="_blank"
+              passHref
             >
               <LinkButton
-                target="_blank"
                 left={
                   <span className="material-symbols-outlined">
                     youtube_activity
@@ -47,6 +47,7 @@ export const ButtonList: FC = () => {
             <Link
               href="https://open.spotify.com/show/00xrBv5KybQqy9fCJNNYRb?si=474f888b490e4226"
               target="_blank"
+              passHref
             >
               <LinkButton
                 target="_blank"

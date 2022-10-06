@@ -31,7 +31,7 @@ export const Projects: FC = () => {
         <ul className="text-white space-y-6 w-full md:max-w-[500px]">
           {projects.map((prod, index) => (
             <li key={index} className="relative">
-              <Link href={prod.href} target="_blank">
+              <Link passHref href={prod.href} target="_blank">
                 <LinkButton
                   left={<span className="font-bold">{prod.product}</span>}
                   target={"_blank"}
