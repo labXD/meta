@@ -17,16 +17,16 @@ export const TopNav: FC = () => {
   ]
 
   return (
-    <nav className="order-2 md:order-[unset] p-4 md:fixed top-0 left-0 right-0">
-      <div className={clsx("flex flex-col text-center space-y-4")}>
-        <span
+    <nav className="pt-4">
+      <div className={clsx("flex flex-col items-center space-y-4")}>
+        <div
           className={clsx(
             "tracking-wider font-semibold text-sm text-slate-300"
           )}
         >
           CURRENT PROJECTS
-        </span>
-        <ul className="text-white m-0 p-0 flex flex-col lg:flex-row justify-center lg:space-x-4 space-y-4 lg:space-y-0">
+        </div>
+        <ul className="text-white space-y-4">
           {projects.map((prod, index) => (
             <li key={index} className="relative">
               <Link href={prod.href} target="_blank">
