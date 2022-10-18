@@ -5,4 +5,5 @@
   - major bump if the website flow has changed
   - minor bump if the flow is the same but the layout, content is different
   - patch bump for style or copy change
-- `pnpm changeset version` to bump version of the website
+- Github actions will then bump the version for us after it merged into dev.
+  - manually, `pnpm changeset version` to bump version of the website
