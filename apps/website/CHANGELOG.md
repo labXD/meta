@@ -1,5 +1,11 @@
 # meta-website
 
+## 1.2.0
+
+### Minor Changes
+
+- added motif landing page
+
 ## 1.1.0
 
 ### Minor Changes

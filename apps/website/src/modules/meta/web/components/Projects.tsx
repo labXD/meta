@@ -29,6 +29,13 @@ export const Projects: FC = () => {
           CURRENT PROJECTS
         </div>
         <ul className="text-white space-y-6 w-full md:max-w-[500px]">
+          <li className="relative">
+            <Link href={"/motif"}>
+              <LinkButton left={<span className="font-bold">motifXD</span>}>
+                Designer Tool
+              </LinkButton>
+            </Link>
+          </li>
           {projects.map((prod, index) => (
             <li key={index} className="relative">
               <Link passHref href={prod.href} target="_blank">
