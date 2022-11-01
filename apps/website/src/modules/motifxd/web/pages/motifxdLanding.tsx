@@ -1,12 +1,12 @@
 import type { NextPage } from "next"
 import Image from "next/future/image"
 import Link from "next/link"
-
-import { PageLayout } from "@/meta/web"
 import YouTube, { YouTubeProps } from "react-youtube"
 
-import XDLogo from "../assets/xd-logo-dark.png"
+import { PageLayout } from "@/meta/web"
+
 import XDDeckCover from "../assets/deck-cover.png"
+import XDLogo from "../assets/xd-logo-dark.png"
 
 export const MotifXDLanding: NextPage = () => {
   const onPlayerReady: YouTubeProps["onReady"] = (event) => {
