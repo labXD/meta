@@ -15,7 +15,6 @@ export const LinkButton: FC<LinkButtonInterface> = ({
   return (
     <a
       {...other}
-      target={"_blank"}
       className={clsx(
         "button transition-all divide-x space-x-2",
         "ring-2",
