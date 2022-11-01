@@ -30,7 +30,7 @@ export const Projects: FC = () => {
         </div>
         <ul className="text-white space-y-6 w-full md:max-w-[500px]">
           <li className="relative">
-            <Link href={"/motifxd"}>
+            <Link href={"/motif"}>
               <LinkButton left={<span className="font-bold">motifXD</span>}>
                 Designer Tool
               </LinkButton>
