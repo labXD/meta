@@ -22,15 +22,15 @@ export const MotifXDLanding: NextPage = () => {
         <section className="flex flex-col items-center">
           <div className="flex flex-col items-center">
             <a href="/" className="flex items-center pt-8">
-              <span className="font-bold font-display text-4xl text-indigo-400">
+              <span className="font-bold font-display text-4xl text-indigo-100">
                 motifXD
               </span>
               <span>
-                <Image alt="motifxd" src={XDLogo} className="w-16" />
+                <Image alt="motifxd" src={XDLogo} className="w-20" />
               </span>
             </a>
             <div className="text-xl text-center">
-              A Figma plugin to bridge the designer-developer gap
+              Generating design systems as an API
             </div>
           </div>
           <ul className="mt-8 py-2 w-full space-y-4">

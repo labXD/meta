@@ -1,5 +1,11 @@
 # meta-website
 
+## 1.2.1
+
+### Patch Changes
+
+- change motif tagline
+
 ## 1.2.0
 
 ### Minor Changes
