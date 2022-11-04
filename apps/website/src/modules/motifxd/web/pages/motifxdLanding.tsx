@@ -59,7 +59,7 @@ export const MotifXDLanding: NextPage = () => {
           </Link>
           <YouTube
             className="youtube-container"
-            videoId="tLPVYJN0lPU"
+            videoId="w2WsCVYQG0k"
             onReady={onPlayerReady}
           />
         </section>
