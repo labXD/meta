@@ -7,6 +7,11 @@ import { LinkButton } from "./LinkButton"
 export const Projects: FC = () => {
   const projects = [
     {
+      product: "motifXD",
+      name: "DesignOps",
+      href: "https://motifxd.com",
+    },
+    {
       product: "surveyXD",
       name: "Survey Builder",
       href: "https://surveyxd.com",
@@ -29,13 +34,6 @@ export const Projects: FC = () => {
           CURRENT PROJECTS
         </div>
         <ul className="text-white space-y-6 w-full md:max-w-[500px]">
-          <li className="relative">
-            <Link href={"/motif"}>
-              <LinkButton left={<span className="font-bold">motifXD</span>}>
-                Designer Tool
-              </LinkButton>
-            </Link>
-          </li>
           {projects.map((prod, index) => (
             <li key={index} className="relative">
               <Link passHref href={prod.href} target="_blank">
