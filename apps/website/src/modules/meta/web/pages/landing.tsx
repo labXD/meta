@@ -8,7 +8,6 @@ export const LandingPage: NextPage = () => {
   return (
     <PageLayout
       pageTitle="labXD - Developing experiences"
-      primary
       cls="before:content-[''] before:bg-black before:bg-gradient-radial before:from-[#1e1c4d] before:fixed before:inset-0 before:-z-10"
       innerCls="flex flex-col items-center justify-center"
       footer={<ButtonList />}

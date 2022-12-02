@@ -15,7 +15,7 @@ export const MotifXDLanding: NextPage = () => {
 
   return (
     <PageLayout
-      pageTitle="motifXD"
+      pageTitle="motifXD - labXD"
       cls="before:content-[''] before:bg-slate-800 before:bg-gradient-radial before:from-[#1e1c4d] before:fixed before:inset-0 before:-z-10"
     >
       <main className="text-white px-4 pt-8 pb-12 flex flex-col items-center page-max-xl">
