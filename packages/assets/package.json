@@ -1,0 +1,11 @@
+{
+  "name": "@labxd/assets",
+  "version": "0.1.0",
+  "description": "Assets for labXD projects",
+  "files": [
+    "src"
+  ],
+  "keywords": [],
+  "author": "labXD Core Team",
+  "license": "UNLICENSED"
+}
