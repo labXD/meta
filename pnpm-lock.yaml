@@ -75,6 +75,9 @@ importers:
       typescript: 4.8.4
       typewriter-effect: 2.19.0_biqbaboplfbrettd7655fr4n2y
 
+  packages/assets:
+    specifiers: {}
+
   packages/eslint-config-labxd:
     specifiers:
       '@rushstack/eslint-patch': 1.2.0

@@ -5,6 +5,9 @@
   "files": [
     "src"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [],
   "author": "labXD Core Team",
   "license": "UNLICENSED"
